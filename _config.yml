@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Ukowu
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: AnshininTakaha
+language: zh-CN # 这里只可以选 zh-CN、zh-HK、zh-TW、ja、en 这几个格式
 timezone: ''
 
 # URL
