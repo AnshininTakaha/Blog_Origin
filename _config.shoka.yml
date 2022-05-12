@@ -77,6 +77,7 @@ menu:
   # friends: /friends/ || heart
   # links: /links/ || magic
 
+# 社交菜单,处于菜单的左下方
 social:
   github: https://github.com/AnshininTakaha || github || "#191717"
   #google: https://plus.google.com/yourname || google
@@ -92,4 +93,61 @@ social:
   #instagram: https://instagram.com/yourname || instagram
   #skype: skype:yourname?call|chat || skype
   #douban: https://www.douban.com/people/yourname/ || douban
+
+
+# 边框栏
+sidebar:
+  # Sidebar Position.
+  position: left
+  #position: right
+  # Replace the default avatar image and set the url here.
+  avatar: avatar.jpg
+
+
+# 下面的栏目
+widgets:
+  random_posts: true # 显示随机文章
+  recent_comments: true # 显示最近评论
+
+
+# 页尾全站统计
+footer:
+  since: 2022
+  count: true
+
+# 文章界面统计
+post:
+  count: true
+
+
+# 评论区
+valine:
+  appId: wYl6z7RKuCxusPJ5YIrVwlct-gzGzoHsz #Your_appId
+  appKey: COelcrYGvqjeJtxwckhUoOjS #Your_appkey
+  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  pageSize: 10 # Pagination size
+  lang: zh-CN
+  visitor: true # 文章访问量统计
+  NoRecordIP: false # 不记录 IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  powerMode: true # 默认打开评论框输入特效
+  tagMeta:
+    visitor: 新朋友
+    master: 主人
+    friend: 小伙伴
+    investor: 金主粑粑
+  tagColor:
+    master: "var(--color-orange)"
+    friend: "var(--color-aqua)"
+    investor: "var(--color-pink)"
+  tagMember:
+    master:
+      # - hash of master@email.com
+      # - hash of master2@email.com
+    friend:
+      # - hash of friend@email.com
+      # - hash of friend2@email.com
+    investor:
+      # - hash of investor1@email.com
 
